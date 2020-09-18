@@ -1,6 +1,8 @@
-# Use case to or rules
+# Use case 
 
 The company runs the Sirius Custody system and defines the next policy to authorize transactions
+
+# Transaction signature policy
 
 -------------
 
@@ -65,3 +67,20 @@ name | position | number of votes (weight)
 
 There are no special rules for this. If the previous 4 rules did not work, then the transaction will be approved
 
+
+# Update transaction signature policy protocol
+
+The company runs the Sirius Custody system with defined policy to authorize transactions. The company decide what to make any changes in  policy to authorize transactions need to validate a new policy definition with several emploee of finance department.
+
+### 6. Any changes in the policy to authorize transactions should be aproved by finance departament
+
+**Condition:** Change in the policy
+
+**Requires:** get 2 votes
+
+**Audience:**
+name | position | number of votes (weight)
+---- | -------- | ------------------------
+Kristine | officer of the finance department | 1
+Jon | officer of the finance department | 1
+Vlad | head of the finance department | 1

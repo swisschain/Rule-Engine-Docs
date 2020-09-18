@@ -15,13 +15,13 @@
 
 # Rules
 
-condition | action | audience
---------- | ------ | --------
-1. transaction total amount is more than 1 BTC or 10 ETH | requires 2 votes | Alise (1), Bob (1), Jon (2)
-2. daily total amount, including this transaction, is more than 10 BTC or 30 ETH | requires 1 votes | Jon(1), Kristine(1)
-3. asset in the transaction is not BTC or ETH | requires 2 votes | Michael (1), Jon (1), Vlad (2)
-4. transaction fee amount is more than 0.001 BTC or 0.0001 ETH | require 1 vote | Alex(1), Simon(1)
-5. transaction total amount is more that 40 BTC or 400 ETH| decline transaction | 
+num | condition | action | audience
+--- | --------- | ------ | --------
+1 | transaction total amount is more than 1 BTC or 10 ETH | requires 2 votes | Alise (1), Bob (1), Jon (2)
+2 | daily total amount, including this transaction, is more than 10 BTC or 30 ETH | requires 1 votes | Jon(1), Kristine(1)
+3 | asset in the transaction is not BTC or ETH | requires 2 votes | Michael (1), Jon (1), Vlad (2)
+4 | transaction fee amount is more than 0.001 BTC or 0.0001 ETH | require 1 vote | Alex(1), Simon(1)
+5 | transaction total amount is more that 40 BTC or 400 ETH| decline transaction | 
 
 
 # Input and output table

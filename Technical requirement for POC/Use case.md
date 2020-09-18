@@ -13,6 +13,14 @@
 
 The company runs the Sirius Custody system and defines the next policy to authorize transactions
 
+* The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department
+* With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department
+* Transactions with all other assets must be approved by the several employees of the finance department or by the head of the finance department
+* It is forbidden to transfer large amounts for a single transaction using BTC and ETH
+* All other transaction should be automatically sign
+* Any changes in the policy to authorize transactions should be aproved by finance departament
+
+
 # Transaction signature policy <a name="policy"></a>
 
 -------------

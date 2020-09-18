@@ -38,6 +38,7 @@ Jon | officer of the finance department | 1
 **Condition:** asset in the transaction is not BTC or ETH
 
 **Requires:** get 2 votes
+
 **Audience:**
 name | position | number of votes (weight)
 ---- | -------- | ------------------------
@@ -53,6 +54,7 @@ Vlad | head of the finance department | 2
 **Condition:** transaction total amount is more that 40 BTC or 400 ETH
 
 **Requires:** Decline transaction
+
 **Audience:**
 name | position | number of votes (weight)
 ---- | -------- | ------------------------

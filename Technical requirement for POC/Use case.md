@@ -1,8 +1,8 @@
 # Use case to or rules
 
-Company run Sirius Custody system and define next policy to authorise transactions:
+Company run Sirius Custody system and define next policy to authorise transactions.
 
-
+-------------
 
 ### 1. Not small transaction should be approval by 2 emploee of customer support departament or Jon from finance control departamet
 
@@ -56,4 +56,8 @@ Vlad | head of the finance department | 2
 **Audience:**
 name | position | number of votes (weight)
 ---- | -------- | ------------------------
+
+-------------
+
+
 

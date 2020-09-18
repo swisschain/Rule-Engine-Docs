@@ -1,12 +1,19 @@
-# Use case 
+# Table of contents
+1. [Use case](#usecase)
+2. [Transaction signature policy](#policy)
+    1. [The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department](#policy1)
+    2. [With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department](#policy2)
+3. [Update transaction signature policy protocol](#update)
+
+# Use case <a name="usecase"></a>
 
 The company runs the Sirius Custody system and defines the next policy to authorize transactions
 
-# Transaction signature policy
+# Transaction signature policy <a name="policy"></a>
 
 -------------
 
-### 1. The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department
+### 1. The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department <a name="policy1"></a>
 
 **Condition:** transaction total amount is more than 1 BTC or 10 ETH
 
@@ -21,7 +28,7 @@ Jon | officer of the finance department | 2
 
 -------------
 
-### 2. With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department
+### 2. With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department <a name="policy2"></a>
 
 **Condition:** daily total amount, including this transaction, is more than 10 BTC or 30 ETH
 
@@ -68,7 +75,7 @@ name | position | number of votes (weight)
 There are no special rules for this. If the previous 4 rules did not work, then the transaction will be approved
 
 
-# Update transaction signature policy protocol
+# Update transaction signature policy protocol <a name="update"></a>
 
 The company runs the Sirius Custody system with defined policy to authorize transactions. The company decide what to make any changes in  policy to authorize transactions need to validate a new policy definition with several emploee of finance department.
 

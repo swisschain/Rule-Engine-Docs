@@ -17,7 +17,7 @@ Alise | officer of the customer support department | 1
 Bob | officer of the customer support department | 1
 Jon | officer of the finance department | 2
 
-
+-------------
 
 ### 2. with an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department
 
@@ -31,7 +31,7 @@ name | position | number of votes (weight)
 Kristine | officer of the finance department | 1
 Jon | officer of the finance department | 1
 
-
+-------------
 
 ### 3. transactions with all other assets must be approved by the staff of the finance department
 
@@ -46,7 +46,7 @@ Kristine | officer of the finance department | 1
 Jon | officer of the finance department | 1
 Vlad | head of the finance department | 2
 
-
+-------------
 
 ### 4. It is forbidden to transfer large amounts for 1 transaction using BTC and ETH
 

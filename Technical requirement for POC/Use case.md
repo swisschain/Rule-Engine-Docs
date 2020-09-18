@@ -61,5 +61,7 @@ name | position | number of votes (weight)
 
 -------------
 
+### 5. All other transaction should be automatically sign
 
+There are no special rules for this. If the previous 4 rules did not work, then the transaction will be approved
 

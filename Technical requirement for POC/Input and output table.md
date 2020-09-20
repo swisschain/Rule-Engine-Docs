@@ -56,6 +56,7 @@ hit rule | input<br>asset | input<br>amount | input<br>daily total amount | inpu
 3 | XRP | 1 | 3 | Michael, Jon, Vlad | Michael, Jon, Vlad | :heavy_check_mark: approve | -
 4 | BTC | 55 | 0 | - | - | :x: decline | -
 4 | BTC | 55 | 0 | Michael, Vlad | Michael, Vlad, Alise, Bob, Jon | :x: decline | -
+4 | ETH | 400 | 0 | - | - | :x: decline | -
 
 
 

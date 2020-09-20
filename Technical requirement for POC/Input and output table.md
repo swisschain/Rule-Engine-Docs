@@ -12,6 +12,7 @@
   * ___Decline___ - the transaction must be declined
   * ___Wait___ - delay the transaction and check again later
 * ___Notify validators___ - list of validators who should be notified
+* ___Signature___ - response signature, see [signarure](#sign)
 
 # Rules
 
@@ -59,7 +60,21 @@ hit rule | input<br>asset | input<br>amount | input<br>daily total amount | inpu
 4 | ETH | 400 | 0 | - | - | :x: decline | -
 
 
+# <a href="sign"></a> Response signature 
 
+To make a signature for responce neet to use algorithm:
+1. Build an object with struct:
+* input.asset: string
+* input.amount: string
+* input.approvedBy: array of string
+* input.notifiedTo: array of string
+* resolution: string
+* notifyValidators: array of string
+2. Serialize object to JSON
+3. Convert JSON to byte array use UTF8 format
+3. Get SHD256 hash-bytes from bate array
+4. Make a signature for hash-bytes using RSA with 2048 bit rsa key pair
+6. Serialize signature bytes to string using BASE64 encoding
 
 
 

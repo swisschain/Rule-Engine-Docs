@@ -1,13 +1,14 @@
 # Table of contents
-1. [Use case](#usecase)
-2. [Transaction signature policy](#policy)
-    1. [The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department](#policy1)
-    2. [With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department](#policy2)
-    3. [Transactions with all other assets must be approved by the several employees of the finance department or by the head of the finance department](#policy3)
-    4. [It is forbidden to transfer large amounts for a single transaction using BTC and ETH](#policy4)
-    5. [All other transaction should be automatically sign](#policy5)
-3. [Update transaction signature policy protocol](#update)
-    1. [Any changes in the policy to authorize transactions should be aproved by finance departament](#policy6)
+* [Use case](#usecase)
+* [Transaction signature policy](#policy)
+    * [The transaction with BTC and ETH and not a small amount should be approved by 2 employees of the customer support department or Jon from the finance control department](#policy1)
+    * [With an abnormally large volume of transfers during the day, transactions should be approved by someone from the finance control department](#policy2)
+    * [Transactions with all other assets must be approved by the several employees of the finance department or by the head of the finance department](#policy3)
+    * [It is forbidden to transfer large amounts for a single transaction using BTC and ETH](#policy4)
+    * [All other transaction should be automatically sign](#policy5)
+* [Update transaction signature policy protocol](#update)
+    * [Any changes in the policy to authorize transactions should be aproved by finance departament](#policy6)
+* [Sign responce](#signresponce)
 
 # Use case <a name="usecase"></a>
 
@@ -103,3 +104,11 @@ name | position | number of votes (weight)
 Kristine | officer of the finance department | 1
 Jon | officer of the finance department | 1
 Vlad | head of the finance department | 1
+
+# <a name="signresponce"></a> Sign responce
+
+The response from the Rule Engine is a document to be signed using Rule Engine Private Key. 
+The document includes:
+* Input context;
+* Resolution; 
+* List of validators to be notified.
